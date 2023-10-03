@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>Tutor Application</title>
+</head>
+<body>
+  <h1>Tutor Application</h1>
+  <p class="important">IMPORTANT: Upon submitting your information, it will be reviewed by the accreditation team 
+    <br>composed of the heads of the STEM departments, who will vet whether you are a good fit for 
+    <br>the tutoring program. You will be contacted with the next steps after submitting. </p>
+  <form  action="https://api.sheetmonkey.io/form/aykawBNztpUsFK4W6qiJTf" method="post">
+    <p>First name:</p>
+    <input type="text" name="First Name" required> <br>
+    <p>Last name:</p>
+    <input type="text" name="Last Name" required><br>
+    <p>Email:</p>
+    <input type="email" name="Email" required><br><br>
+
+    <p>What grade are you in?</p>
+    <select name="Grade" id="grade">
+      <option value="9th">9th</option>
+      <option value="10th">10th</option>
+      <option value="11th">11th</option>
+      <option value="12th">12th</option>
+    </select>
+
+    <p>Which subject(s) would you like to tutor? (Select all that apply)</p>
+
+    <p class="title" >MATH</p>
+    <input type="checkbox" name="Subject" value="6 math"> 6th grade math<br>
+    <input type="checkbox" name="Subject" value="7 math"> 7th grade math<br>
+    <input type="checkbox" name="Subject" value="8 math"> 8th grade math<br>
+    <input type="checkbox" name="Subject" value="9 math core"> 9th grade core math<br>
+    <input type="checkbox" name="Subject" value="9 math ext"> 9th grade exended math<br>
+    <input type="checkbox" name="Subject" value="10 math core"> 10th grade core math<br>
+    <input type="checkbox" name="Subject" value="10 math ext"> 10th grade exended math<br>
+    <input type="checkbox" name="Subject" value="AI SL 11 math"> 11th grade AI SL math<br>
+    <input type="checkbox" name="Subject" value="AI HL 11 math"> 11th grade AI HL math<br>
+    <input type="checkbox" name="Subject" value="AA SL 11 math"> 11th grade AA SL math<br>
+    <input type="checkbox" name="Subject" value="AA HL 11 math"> 11th grade AA HL math<br>
+
+    <p class="title"> INTEGRATED SCIENCE </p>
+    <input type="checkbox" name="Subject" value="6 science"> 6th grade science<br>
+    <input type="checkbox" name="Subject" value="7 science"> 7th grade science<br>
+    <input type="checkbox" name="Subject" value="8 science"> 8th grade science<br>
+
+    <p class="title"> BIOLOGY </p>
+    <input type="checkbox" name="Subject" value="9 bio"> 9th grade biology<br>
+    <input type="checkbox" name="Subject" value="SL 11 bio"> 11th grade SL biology<br>
+    <input type="checkbox" name="Subject" value="HL 11 bio"> 11th grade HL biology<br>
+    
+    <p class="title"> PHYSICS </p>
+    <input type="checkbox" name="Subject" value="10 physics"> 10th grade physics<br>
+    <input type="checkbox" name="Subject" value="SL 11 physics"> 11th grade SL physics<br>
+    <input type="checkbox" name="Subject" value="HL 11 physics"> 11th grade HL physics<br>
+
+    <p class="title"> CHEMISTRY </p>
+    <input type="checkbox" name="Subject" value="10 chem"> 10th grade chemistry<br>
+    <input type="checkbox" name="Subject" value="SL 11 chem"> 11th grade SL chemistry<br>
+    <input type="checkbox" name="Subject" value="HL 11 chem"> 11th grade HL chemistry<br>
+
+    <p class="title"> ESS </p>
+    <input type="checkbox" name="Subject" value="SL 11 ESS"> 11th grade SL ESS<br>
+    <input type="checkbox" name="Subject" value="HL 11 ESS"> 11th grade HL ESS<br>
+
+    <p> Tell us a little about you (why you think you would be a good tutor) </p>
+    <textarea name="About" rows="5" required> </textarea> <br>
+  
+    <p> What day(s) works best for you? (Select all that apply) </p>
+    <input type="checkbox" name="Day" value="Mondays"> Mondays<br>
+    <input type="checkbox" name="Day" value="Tuesdays"> Tuesdays<br>
+    <input type="checkbox" name="Day" value="Wednesdays"> Wednesdays<br>
+    <input type="checkbox" name="Day" value="Thursdays"> Thursdays<br>
+    <input type="checkbox" name="Day" value="Fridays"> Fridays<br>
+
+    <p> What time(s) works best for you? (Select all that apply) </p>
+    <input type="checkbox" name="Time" value="4:00-4:30"> 4:00-4:30 (After school)<br>
+    <input type="checkbox" name="Time" value="4:30-5:00"> 4:30-5:00 (After school)<br>
+    <input type="checkbox" name="Time" value="MP"> MP day 1<br>
+    <input type="checkbox" name="Time" value="MP"> MP day 2<br>
+    <input type="checkbox" name="Time" value="MP"> MP day 3<br>
+    <input type="checkbox" name="Time" value="MP"> MP day 4<br>
+    <input type="checkbox" name="Time" value="MP"> MP day 5<br>
+    <input type="checkbox" name="Time" value="MP"> MP day 6<br>
+    <input type="checkbox" name="Time" value="MP"> MP day 7<br>
+    <input type="checkbox" name="Time" value="MP"> MP day 8<br>
+    <input type="checkbox" name="Time" value="Lunch"> Lunch time<br><br> 
+    
+    <input type="submit" value="Submit" >
+    <input type="reset" value="Clear form">
+  </form>
+</body>
+
+<style>
+  body{
+    text-align: center;
+    color: rgb(35,43,99);
+    font-family: sans-serif;
+  }
+
+  p{
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+
+  p.title {
+    font-size: .9em;
+    font-weight: 600;
+  }
+
+  p.important {
+    color: red;
+  }
+
+</style>
+
+</html>
